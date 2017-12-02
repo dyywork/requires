@@ -3,7 +3,9 @@ define(function (require) {
   var angular = require('angular'),
     services = require('services/services'),
     config = require('config'),
-    controllers = angular.module('app.controllers', ['app.services', 'app.config']);
+    directives = require('directives/directives'),
+    filters = require('filters/filters'),
+    controllers = angular.module('app.controllers', ['app.services', 'app.config','app.directives','app.filters']);
         controllers.controller('DashCtrl', require('controllers/DashCtrl'));
         controllers.controller('ChatsCtrl', require('controllers/ChatsCtrl'));
         controllers.controller('ChatDetailCtrl', require('controllers/ChatDetailCtrl'));

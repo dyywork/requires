@@ -10,9 +10,9 @@
 define(['angular',
     'uiRouter',
     'config',
-
+    'filters/filters',
     'services/services',
-
+    'directives/directives',
     'controllers/controllers',
     'ionicAngular'],
 
