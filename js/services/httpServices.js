@@ -3,8 +3,7 @@ define(['angular'], function (angular) {
 
   var httpService = function ($http, $q) {
     var factory = {};
-    var urls = "http://222.73.147.33:8082/";
-    //正式：139.196.126.54:80    测试：222.73.147.33:8082//  192.168.1.106:8080
+    var urls = url;          //对应请求的地址；
     factory.getlist = function (endpoint, method, params) {
       var defer = $q.defer();
       if (method === 'GET') {
