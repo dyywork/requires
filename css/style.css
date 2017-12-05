@@ -1,1 +1,316 @@
 /* Empty. Add your own CSS if you like */
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 10px;
+    font-family: 'Microsoft Yahei', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  !important;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  html {
+    font-size: 12px;
+    font-family: 'Microsoft Yahei', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  !important;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  html {
+    font-size: 13px;
+    font-family: 'Microsoft Yahei', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  !important;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 639px) {
+  html {
+    font-size: 15px;
+    font-family: 'Microsoft Yahei', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  !important;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1280px) {
+  html {
+    font-size: 26px;
+    font-family: 'Microsoft Yahei', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  !important;
+  }
+}
+
+body {
+  font-size: 1.6rem;
+}
+/*公共样式*/
+.order-detail-img{width: 60px;height: 60px;}
+.order-img{width: 100%;height: 32vh;}
+.order-img img{width: 100%;height: 100%;}
+.dyy-checkedbox-change{height: 22px!important;width: 44px!important;}
+.dyy-checkedbox-cirlce{width: 22px!important;height: 22px!important; top: 5px!important;}
+.dyy-overflow{overflow: hidden;}
+.dyyheight0px{height: 0px!important;}
+.dyy-font{font-size: 1.4rem;}
+.dyy-font1{font-size: 1rem!important;}
+.dyy-font11{font-size: 1.1rem;}
+.dyy-font12{font-size: 1.2rem;}
+.dyy-font18{font-size:1.8rem!important;}
+.dyy-font22{font-size: 2.2rem !important;}
+.dyy-height-24px{height: 25px !important;}
+.dyy-float-left{float: left;}
+.dyy-float-right{float: right;}
+.dyy-lin-hight43px{line-height: 43px;}
+.dyy-lin-hight37px{line-height: 37px;}
+.dyy-border-bottom-line{border-bottom: 1rem #eeeeee solid;}
+.dyy-margin-top{margin-top: 10px!important;}
+.dyy-margin-right{margin-right: 10px!important;}
+.dyy-margin-none{margin: 0px!important;}
+.dyy-padt{padding-top: 10px;}
+.dyy-padl{padding-left: 10px !important;}
+.dyy-pad8{padding: 8px;}
+.dyy-count{width: 60%;height: 100%;float: right;text-align: center;font-size: 1.4rem}
+.dyy-remove{width: 100%;height: 100%;float: right;text-align: center;font-size: 1.4rem}
+.dyy-collect{width: 100%;height: 100%;float: right;text-align: center;font-size: 1.4rem}
+.dyy-border-left{border-left: 0.3rem solid #ef5904;}
+.dyy-border-bottom{border-bottom: 1px solid #eee;}
+.dyy-margin-normal{margin: 0px 0px 0px 5px!important;}
+.dyy-text-align{text-align: center;}
+.dyy-height{overflow: hidden;clear: both;}
+.dyy-header-bg{background-color: #EF5904;}
+.dyy-color{color: #EF5904!important;}
+.dyy-white{color:#fff !important;}
+.dyy-height100{height: 86vh;}
+.dyy-no-right-border{border-right: none;border-left: none;}
+.dyy-no-right-border>a{display: inline;padding: 0px !important;}
+.dyy-icon-position{height: 39% !important;  top: 55% !important;}
+.dyy-icon-line-hight{line-height: 1.3rem}
+.dyy-border-bottom-img{background: url("../img/line.png") repeat-x  bottom;background-size:217px 7px;}
+.dyy-border-top{border-top-width: 1px;border-top-style: solid;border-color: #eee}
+.dyy-dot{width: 1rem;height: 1rem;border-radius: 50%;background-color: #e42112;display: inline-block;vertical-align: middle;}
+.dyy-dot-no{width: 1rem;height: 1rem;  border: 1px #cccccc solid;  border-radius: 50%;display: inline-block;}
+.dyy-vertical{display:flex;  justify-content:center;  align-items:center;}
+.dyy-number{height: 1.5rem;width: 1.5rem;text-align: center;line-height: 1.5rem; display: inline-block; border-radius: 5px;}
+.dyy-input-border{border:1px #eeeeee solid !important;}
+.dyy-radio{width: 3rem!important;height: 3rem!important;padding:0.5rem;}
+.dyy-radio:after{top:33%!important;left:32%!important;}
+.vertical-radio{display: inline-block;line-height: 3rem;}
+/*登录页面*/
+.admin-login-img{height: 30vh;width: 100%;}
+.admin-login-icon{font-size: 1.6rem;}
+.admin-order-button{width: 7rem;height: 2rem;border:1px #cccccc solid;border-radius: 4px;text-align: center;line-height: 2rem;}
+.dyy-red{border:1px red solid !important;box-shadow: 0px 0px 2px red !important;}
+.dyy-ok{border:1px green solid !important;box-shadow: 0px 0px 2px green !important;}
+/*确认订单*/
+.admin-count-list{overflow: hidden;}
+/*购物车*/
+.admin-bar-right{    border-color: transparent;
+  color: #444;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  min-width: 52px;
+  min-height: 37px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  vertical-align: top;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 37px;
+  cursor: pointer;}
+/*首页样式*/
+.admin-num-input{    border-top: 1px #111 solid !important;
+  border-bottom: 1px #111 solid !important;
+  height: 1rem !important;
+  margin-top: 0.13rem !important;
+  width: 3rem !important;
+  text-align: center !important;}
+.admin-width100{width: 100%}
+.admin-bar-li{
+  float: left;
+  width: 33.33%;
+}
+.admin-bar-ion{
+  font-size: 1.5rem !important;
+  line-height: 2.1rem;
+  color:#aaa;
+}
+.admin-bar-ion-left{
+  margin-right: 1rem;
+}
+.admin-bar-ion-right{
+  margin-left: 1rem;
+}
+.admin-bar-search{
+  border-radius: 5rem;
+  border: 1px #ccc solid;
+}
+.admin-img{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin: 0px auto 0.5rem;
+  display: block;
+}
+.admin-imgs{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0px auto 0.5rem;
+  display: block;
+}
+.admin-img-title{
+  text-align: center;
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+}
+.admin-con-top{
+  border-bottom: 0.5rem #f8f8f8 solid;
+  display: block;
+  width: 100%;
+}
+.admin-li-odd{
+  border-bottom: 1px #cccccc solid;
+  border-right: 1px #cccccc solid;
+  width: 49.8%;
+  float: left;
+  height: 180px;
+}
+.admin-li-even{
+  border-bottom: 1px #cccccc solid;
+  width: 49.8%;
+  float: left;
+  height: 180px;
+}
+.login-bg{
+  background-image: url("../img/loginBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.login-mar-top{
+  margin-top: 30vh;
+}
+.login-content{
+  width: 90%;
+  margin: 43vh auto 0;
+  padding: 5vh 0;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 4px 5px #ccc;
+}
+.login-button-bg{background-color: #e1ba56;
+  border-radius: 25px;
+  height: 47px;
+  width: 90%;
+  margin: 20px auto 0;
+  text-align: center;
+  color: #fff;
+  line-height: 47px;
+  font-size: 1.3rem;
+}
+.login-button-bg:active{
+  color: #fff !important;
+  background-color: #e1ba56 !important;
+}
+.login-button-bg:hover{
+  color: #fff !important;
+  background-color: #e1ba56 !important;
+}
+.login-button-bg:visited{
+  color: #fff !important;
+  background-color: #e1ba56 !important;
+}
+.login-button-bg:link{
+  color: #fff !important;
+  background-color: #e1ba56 !important;
+}
+.order-foot{background-color: #ef6100;color: #fff;}
+
+/*按钮复制*/
+.button.button-orgine {
+  border-color: transparent;
+  background-color: #ef5904;
+  color: #fff; }
+.button.button-orgine:hover {
+  color: #fff;
+  text-decoration: none; }
+.button.button-orgine.active, .button.button-orgine.activated {
+  border-color: #ef5904;
+  background-color: #ef5904; }
+.button.button-orgine.button-clear {
+  border-color: transparent;
+  background: none;
+  box-shadow: none;
+  color: #ef5904; }
+.button.button-orgine.button-icon {
+  border-color: transparent;
+  background: none; }
+.button.button-orgine.button-outline {
+  border-color: #ef5904;
+  background: transparent;
+  color: #ef5904; }
+.button.button-orgine.button-outline.active, .button.button-orgine.button-outline.activated {
+  background-color: #ef5904;
+  box-shadow: none;
+  color: #fff; }
+.dyy-border-rad {border-radius: 25px !important;margin: 0px 56px!important;}
+
+
+.popup{border-radius: 10px!important;}
+/*分类的样式*/
+.admin-circle{display: block;position: absolute;border-radius: 50%;
+  color: #fff;  top: 0;  right: 0px;background-color: #ef5904;width: 1rem;height: 1rem;font-size: 1rem; text-align: center;line-height: 1rem;}
+.admin-midal-bg{background-color: rgba(0,0,0,0.5);padding-top: 20vh;}
+.admin-modal-left-bg{background-color: rgba(0,0,0,0.5);padding-left: 10vh;}
+.admin-modal-bottom-bg{background-color: rgba(0,0,0,0.1);padding-bottom: 10vh;}
+.admin-modal-content{opacity: 1;margin-top: 150px;}
+.admin-modal-content-left{opacity: 1;margin-left: 10vh;}
+.admin-modal-content-bottom{opacity: 1;margin-bottom: 57vh;}
+.admin-modal-img{width: 10rem;height: 10rem;border-radius: 5px;box-shadow: 0px 8px 5px #888888;background-color: #fff;z-index: 9999;position: absolute;margin-left: 5px}
+.admin-modal-img>img{width: 100%;
+  height: 100%;}
+.admin-modal-close{height: 150px;opacity: 0;width:100%;z-index: 666;position: absolute;top: 0;}
+.admin-modal-detail{height: 25vh;}
+.admin-modal-detail>i{display: inline-block; float: right;font-size: 2rem;}
+/*商品详情*/
+.admin-detail-slide{height: 30vh;}
+.admin-detail-slide img{width: 100%;}
+.admin-cart-num{width: 2.5rem;height: 2.5rem!important; font-size: 2rem!important;text-align: center; display: inline-block ;float: left;line-height: 2.3rem!important;border: 1px #cccccc solid!important;padding-top: 0px!important;padding-bottom: 0.3rem!important;}
+.admin-cart-nums{float: left;height: 2.5rem!important;width: 4rem;text-align: center ;font-size: 1rem!important;
+  border:1px #ccc solid !important;}
+.dyy-item{min-height: 73px !important; height: 73px!important;}
+.dyy-all-img{top: 0px!important; height: 70px!important;width: 70px!important;}
+/*我的页面*/
+.person-header-img{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.dyy-button-all{min-height:26px!important;line-height: 26px;margin-top: 6px;}
+/*盘点样式*/
+.invenTable{
+  width: 100%;
+}
+.bankImg{
+  width: 42px;height: 40px;
+}
+.bank .item-content {
+  padding: 0px !important;
+}.bank .radio-icon {
+   padding: 7px !important;
+ }
+.invenTable th,td{
+  font-size: 1.2rem;
+  padding: 2px 0 2px 0;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid #ccc;
+}
+.invenInput{
+  border: 1px #ccc solid !important;
+  width: 4rem !important;
+  height: 2rem !important;
+  display: inline !important;
+}
